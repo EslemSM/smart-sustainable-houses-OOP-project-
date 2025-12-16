@@ -1,0 +1,44 @@
+/* style.css */
+
+/* Whole app layout */
+.root {
+  -fx-font-family: "Segoe UI", sans-serif;
+  -fx-background-color: #f4f4f4;
+}
+
+/* Role & energy panels */
+.label {
+  -fx-font-size: 14px;
+  -fx-text-fill: #333;
+}
+.hbox, .vbox {
+  -fx-spacing: 10;
+  -fx-padding: 10;
+}
+
+/* Energy status bar */
+.hbox .label {
+  -fx-font-weight: bold;
+}
+
+/* Device pane */
+.titled-pane {
+  -fx-background-color: white;
+  -fx-text-fill: #222;
+  -fx-font-size: 15px;
+  -fx-border-color: #ddd;
+  -fx-border-radius: 6;
+  -fx-background-radius: 6;
+}
+
+/* Buttons */
+.button {
+  -fx-background-color: #1e90ff;
+  -fx-text-fill: white;
+  -fx-font-size: 13px;
+  -fx-padding: 6 12;
+  -fx-background-radius: 5;
+}
+.button:hover {
+  -fx-background-color: #147de0;
+}
